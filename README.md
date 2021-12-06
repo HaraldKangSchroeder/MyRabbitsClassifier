@@ -4,7 +4,7 @@ This is a private project of mine. It is a classification model using machine le
 It provides 2 models based on vgg16 and mobilenet, both having almost an accuracy of 100%.
 
 ## My rabbits!
-<img src="https://user-images.githubusercontent.com/81776044/144903280-1f8e20ef-5b72-48da-9df3-ab017911a369.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144903724-cfc24a34-c99c-40b7-824f-411424036e9e.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144903834-f2c2cb28-0e00-4161-9c9a-dfef5bb69f16.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144904102-cdca359f-cd41-4dd5-95aa-a6f74e3025d8.jpg" width="200" height="150" />
+<img src="https://user-images.githubusercontent.com/81776044/144905043-f42664dd-72c5-4714-ae68-1c28754ac5fa.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144903724-cfc24a34-c99c-40b7-824f-411424036e9e.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144903834-f2c2cb28-0e00-4161-9c9a-dfef5bb69f16.jpg" width="200" height="150" /> <img src="https://user-images.githubusercontent.com/81776044/144904102-cdca359f-cd41-4dd5-95aa-a6f74e3025d8.jpg" width="200" height="150" />
 
 ## Setup
 This section describes how you can replicate my results. I also used this video (https://www.youtube.com/watch?v=qFJeN9V1ZsI) which I also highly recommend if you want to get in touch with Keras as well.
