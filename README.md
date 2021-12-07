@@ -9,16 +9,16 @@ It provides 2 models based on vgg16 and mobilenet, both having almost an accurac
 ## Setup
 This section describes how you can replicate my results. I also used this video (https://www.youtube.com/watch?v=qFJeN9V1ZsI) which I also highly recommend if you want to get in touch with Keras as well.
 ### Datasets
-I have prepared 2 Datasets. TODO contains raw data of around 100 images of each class (/each rabbit) which needs data preprocessing and preparation for the training,
+I have prepared 2 Datasets. https://drive.google.com/file/d/1_PauLuJM0xXEXIgIDNmxy0ubBBeTlQaF/view?usp=sharing contains raw data of around 100 images of each class (/each rabbit) which needs data preprocessing and preparation for the training,
 TODO is already ready to use for training
 
 ### Preprocessing and preparation
-Download the respective dataset and place it inside the project root directory. By executing each cell in the notebook file `data_preprocessor.ipynb`, you
+Download the respective zip.file, extract it and place the data folder inside the project root directory. By executing each cell in the notebook file `data_preprocessor.ipynb`, you
 1. apply an augmentation step by rotating, shifting ... the raw images to increase the number of training samples. Right now, each image is duplicated+augmented 10 times. However,
-you can play around with my settings and change the augmentation parameters as desired. You will find the augmentated images in `/augmented/<CLASS>` for each class.
+you can play around with my settings and change the augmentation parameters as desired. You will find the augmentated images in `/data/augmented/<CLASS>` for each class.
 
-2. prepare the data by splitting them into a training, test and validation set. By default, the training set will have 900 images per class, the validation set 100 and the test set 30.
+2. prepare the data by splitting them into a training, test and validation set. By default, the training set will have 900 images per class, the validation set 100 and the test set 30 which you can find in `/data/<validation || test || training>`.
 
 ### Training
 If you want to skip the preprocessing, you can directly start training with my preprocessed data.
-Download the respective training dataset and place it inside the project root directory. You can then either use the `mobilenet_model.ipynb` or the `vgg16_model.ipynb` to train a model and adapt parameters as you desire.
+Download the respective zip.file, extract it and place the data folder inside the project root directory. You can then either use the `mobilenet_training.ipynb` or the `vgg16_training.ipynb` to train a model and adapt parameters as you desire.
